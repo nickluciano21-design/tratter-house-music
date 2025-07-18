@@ -118,13 +118,9 @@ All colors MUST be HSL. Sophisticated tan/black theme with elegant gradients.
   }
 
   body {
-    @apply text-foreground;
-    font-family: var(--font-body);
-    min-height: 100vh;
-  }
-
-  #root {
+    @apply bg-background text-foreground;
     background: var(--gradient-radial);
+    font-family: var(--font-body);
     min-height: 100vh;
   }
 
