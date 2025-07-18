@@ -5,8 +5,9 @@ const CTASection = () => {
   };
 
   return (
-    <section className="section-spacing bg-gradient-tan">
-      <div className="container-custom text-center">
+    <section className="section-spacing relative">
+      <div className="absolute inset-0 bg-gradient-tan opacity-95 rounded-3xl mx-4"></div>
+      <div className="container-custom text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-accent-foreground scroll-reveal">
             Ready to Grow Your Audience?

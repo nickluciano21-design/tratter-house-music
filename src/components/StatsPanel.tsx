@@ -88,7 +88,7 @@ const StatsPanel = ({ stats, artistName }: StatsPanelProps) => {
   };
 
   return (
-    <section ref={ref} className="section-spacing bg-gradient-dark">
+    <section ref={ref} className="section-spacing">
       <div className="container-custom">
         <div className="text-center mb-16 scroll-reveal">
           <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">

@@ -6,7 +6,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="section-spacing bg-gradient-dark border-t border-border">
+    <footer className="section-spacing border-t border-border/20">
       <div className="container-custom">
         <div className="grid md:grid-cols-3 gap-8 items-center">
           <div className="scroll-reveal">
