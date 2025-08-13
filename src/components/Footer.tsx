@@ -62,7 +62,7 @@ const Footer = () => {
         
         <div className="border-t border-border mt-12 pt-8 text-center scroll-reveal">
           <p className="text-muted-foreground">
-            © 2024 Tratter House Music. All rights reserved.
+            © 2024 Tratter House Music. 
           </p>
         </div>
       </div>
